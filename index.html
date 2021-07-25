@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/reset.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Book Shop</title>
+  </head>
+  <body>
+    <header><h1>Books Shop</h1></header>
+
+    <main>
+      <div id="frm">
+        <form>
+          <fieldset>
+            <label for="book name">Book Name</label>
+            <input type="text" name="book name" /> <br>
+            <label for="book price">Book Price</label>
+
+            <select name="book price" id="prices">
+              <option value="100">100</option>
+              <option value="500">500</option>
+              <option value="1000">1000</option>
+            </select>
+            <input type="submit" id="btn" value="Submit" />
+          </fieldset>
+        </form>
+      </div>
+
+      <div id="cart">
+        <table>
+          <!-- <tr>
+          <th>Book Name</th>
+          <th>Book Pages</th>
+          <th>Price</th>
+        </tr> -->
+        </table>
+        <span id="total"></span>
+      </div>
+    </main>
+
+    <footer>
+      <span> &copy; Emam 2021</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
